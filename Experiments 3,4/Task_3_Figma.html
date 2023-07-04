@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://127.0.0.1:5500/Task_3_.html -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Required meta tags -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Welcome to iCoder. A blog for coding enthusiasts">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Nutrical</title>
+    <style>
+        body {
+            position: relative;
+            width: 1484px;
+            height: 895px;
+
+            background: #EDC2EB;
+        }
+
+        .rectangle2 {
+            position: absolute;
+            width: 1484px;
+            height: 113px;
+
+            top: 63px;
+
+            background: #8c4a89;
+            opacity: 0.4;
+            border-radius: 0px 0px 200px 0px;
+        }
+
+        .rectangle1 {
+            border: 2px solid purple;
+            border-radius: 30px;
+            position: absolute;
+            width: 439px;
+            height: 218px;
+            left: 1010px;
+            top: 191px;
+
+            background: url(community.jpg);
+            border-radius: 30px;
+        }
+
+        .para {
+            position: absolute;
+            width: 759px;
+            height: 228px;
+            left: 150px;
+            top: 221px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+
+            color: #000000;
+
+        }
+
+        .pa {
+
+            position: absolute;
+            width: 831px;
+            height: 44px;
+            left: 43px;
+            top: 96px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 44px;
+            /* identical to box height */
+
+
+            color: #000000;
+        }
+
+        .pic {
+            position: absolute;
+            width: 650px;
+            height: 403px;
+            left: 149px;
+            top: 467px;
+            border: 2px solid purple;
+            border-radius: 30px;
+            background: url(Cubic.jpg);
+            background-image: 500px;
+        }
+
+
+        .home {
+            position: absolute;
+            width: 72px;
+            height: 72px;
+            left: 906px;
+            top: 476px;
+            background: url(home.png);
+            background-size: 70px;
+            background-image: no-repeat;
+        }
+
+
+        .parag {
+            position: absolute;
+            width: 95px;
+            height: 183px;
+            left: 901px;
+            top: 556px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+        }
+
+        .call {
+            position: absolute;
+            width: 70px;
+            height: 69px;
+            left: 1236px;
+            top: 476px;
+            background: url(call.png);
+            background-size: 70px;
+            background-image: no-repeat;
+        }
+
+        .calldetails {
+            position: absolute;
+            width: 96px;
+            height: 186px;
+            left: 1233px;
+            top: 563px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+
+        }
+
+        .foot {
+            position: absolute;
+            /* border: 2px solid purple; */
+            border-radius: 73px;
+            width: 632px;
+            height: 94px;
+            left: 823px;
+            top: 778px;
+            background: #D683D2;
+        }
+
+        .text {
+            position: absolute;
+            width: 270px;
+            height: 30px;
+            left: 845px;
+            top: 811px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 24px;
+            color: #000000;
+        }
+
+        .logo {
+            position: absolute;
+            width: 105px;
+            height: 83px;
+            left: 1311px;
+            top: 784px;
+            background: url(enviroment.jpg);
+            background-size: 100PX;
+        }
+
+        .instagram {
+            position: absolute;
+            width: 69px;
+            height: 69px;
+            left: 1373px;
+            top: 476px;
+            background: url(instagram.jpg);
+            background-size: 69px;
+        }
+
+        .instagramdetails {
+            position: absolute;
+            width: 85px;
+            height: 109px;
+            left: 1370px;
+            top: 557px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 24px;
+            color: #000000;
+        }
+
+        .twitter {
+            position: absolute;
+            width: 79px;
+            height: 65px;
+            left: 1079px;
+            top: 476px;
+            background: url(twitter.png);
+            background-size: 80px;
+        }
+
+        .twitterdetails {
+            position: absolute;
+            width: 76px;
+            height: 148px;
+            left: 1081px;
+            top: 552px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 24px;
+            color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="http://127.0.0.1:5500/Task_3_.html#">Community</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Specialities
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Special community plans</a>
+                        <a class="dropdown-item" href="#">Blog reference</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Support</a>
+                        <a class="dropdown-item" href="#">Write for us</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div class="mx-2">
+                <button class="btn btn-danger" data-toggle="modal" data-target="#loginModal">Login</button>
+                <button class="btn btn-danger" data-toggle="modal" data-target="#signupModal">SignUp</button>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Login to Nutrical</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sign Up Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Get an Nutrical Account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group">
+                            <label for="cexampleInputPassword1">Confirm Password</label>
+                            <input type="password" class="form-control" id="cexampleInputPassword1">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Creat Account</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="rectangle2">
+
+    </div>
+    <div class="pa">
+        JOIN WITH US!!...IT IS A GOLDEN OPPORTUNITY:)
+    </div>
+    <div class="rectangle1"></div>
+    <div class="para">
+        Hello Guys!!! <br><br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure quasi iste praesentium perferendis voluptate
+        eaque,
+        nobis aperiam magni odio optio enim, eligendi placeat. Obcaecati natus tempore neque optio impedit quos Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Velit earum, facilis reiciendis obcaecati dolorum inventore
+        perferendis ad error adipisci suscipit veritatis maxime dignissimos tempore rem quo consequuntur aspernatur quia
+        sint.
+    </div>
+    <div class="line"></div>
+    <div class="pic"></div>
+    <div class="home"></div>
+    <div class="call"></div>
+    <div class="parag">
+        Address:
+        2011,Mumbai.
+        Varali sea link.
+        Rajmahal Building.
+        email-community@.com
+    </div>
+    <div class="calldetails">
+        Contact us from following details:
+        +91 206234
+        fax-community23.fax
+    </div>
+    <div class="foot">
+
+    </div>
+    <div class="text">
+        &copyright 2022-23. All rights are reserved.
+    </div>
+    <div class="logo"></div>
+    <div class="instagram">
+
+    </div>
+    <div class="instagramdetails">
+        <a href="intagram.com">Click here to go on instagram page</a>
+    </div>
+    <div class="twitter">
+
+    </div>
+    <div class="twitterdetails">
+        <a href="twitter.com">Click here to go on twitter page</a>
+    </div>
+    <!-- Code injected by live-server -->
+    <script>
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        }
+        else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+	// ]]>
+    </script>
+
+
+</body>
+
+</html>

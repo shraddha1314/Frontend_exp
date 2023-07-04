@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0;
+  }
+
+.container{
+    height: 800px;
+    background-color: aqua;
+    background-size:cover;
+    background-image: url("https://images.pexels.com/photos/1933239/pexels-photo-1933239.jpeg?auto=compress&cs=tinysrgb&w=600");
+   
+}
+.navbar-right{
+    display: flex;
+    color: wheat;
+    margin: 10px;
+    margin-inline-end: 0px;
+    float: right;
+
+}
+.navbar-left{
+    float:left;
+    text-transform: uppercase;
+}
+.navbar-left h4{
+    margin: 30px;
+    padding: 10px;
+font-style: italic;
+    text-align: center; 
+    text-decoration: none;
+    font-size: 20px;
+}
+.propel{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 700px;
+}
+.propel h1,h4{
+    text-align: center;
+    color: white;
+}
+.propel button{
+   margin-top: 70px;
+   background-color: rgb(195, 0, 255);
+   color: aliceblue;
+   margin-left: 190px;
+   width: 100px;
+   height: 50px;
+   float: right;
+   
+}
+.navbar-right ul,button{
+margin: 30px;
+padding: 10px;
+font-size: 20px;
+text-align: center;    
+
+}
+
+.Respon{
+    margin: 20px;
+    
+    width: 700px;
+    margin-left: 500px;
+
+}
+
+  
+
+.cardview{
+    border: 10px;
+    border-color: black;
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    border: 4px solid #171111;
+    height: 200px;
+    margin: 20px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    
+}
+.cards h4{
+    color: black;
+    
+}

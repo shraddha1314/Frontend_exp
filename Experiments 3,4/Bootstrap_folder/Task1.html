@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="">
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url("")
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+        margin: 10px auto;
+        font-size: 15px;
+
+    }
+
+    .left img {
+        width: 136px;
+
+
+
+    }
+
+    .left.div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 36%;
+        margin: 29px auto;
+        /* border: 2px solid green;*/
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 17px
+    }
+
+    .navbar li a {
+
+        text-decoration: underline;
+        color: white;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: gray;
+        text-decoration: underline;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .btn:hover {
+        text-align: center;
+        background-color: rgb(31, 30, 30);
+    }
+
+    .container {
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 28px;
+        margin: 106px 90px;
+        padding: 75px;
+        width: 22%;
+        display: inline-block;
+
+
+    }
+    .container2{
+        
+        border-radius: 28px;
+        text-size-adjust: 10px;
+        width: 105%;
+        display: inline-block;
+        font-size: 22px;
+
+    }
+    .container2 li a {
+        border: 2px solid white;
+        padding: 4px;
+        background-color: black;
+        color: rgb(253, 253, 253);
+        font-size: 15px;
+    }
+
+    .form.group input {
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .container button {
+
+        display: block;
+        width: 74% margin : 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!--logo-->
+        <div class="left">
+            <img src="binary.jpg" alt="">
+            <h6>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Logo</h6>
+
+
+
+        </div>
+        <!--navbar-->
+        <div class="mid">
+            <ul class="navbar">
+
+                <li><a href="/portfolioweb.html" target="blank">Work-experience</a></li>
+                <li><a href="/portfolioweb.html" target="blank">About me</a></li>
+                <li><a href="/portfolioweb.html" target="blank">Skill</a></li>
+                <li><a href="/portfolioweb.html" target="blank">Contact info</a></li>
+
+            </ul>
+
+        </div>
+        <!--buttons-->
+        <div class="right">
+            <button class="btn">call me</button><button class="btn">email me</button>
+
+        </div>
+    </header>
+    <div class="container">
+
+        <h1>Contact form</h1>
+        <form action="noaction.php">
+            <div class="form.group">
+                <input type="text" name="" placeholder="Enter your name:">
+            </div><br>
+
+
+            <div class="form.group">
+                <input type="text" name="" placeholder="Enter your Profession:">
+            </div><br>
+
+            <div class="form.group">
+                <input type="text" name="" placeholder="Enter your email:">
+            </div><br>
+
+            <div class="form.group">
+                <input type="text" name="" placeholder="Enter your phone number:">
+            </div><br>
+
+
+
+            <button class="btn">submit your info</button><br>
+            <button class="btn">Reset info</button>
+
+            <br>
+        </form>
+    </div>
+    <div class="container">
+        <div class="container2">
+            <h1>This is my info</h1>
+            <p>I am Shraddha Nalawade. I am pursuing Btech degree in Information Technology at Rajarambapu institude of Technology,Sakharale. <br>
+                I am currently working in 2 internship project. <br>
+            <li>Here is my linkdin Profile</li>
+             <li><a href="https://www.linkedin.com/in/shraddha-nalawade-09456b244.com" target="blank">Click here to go on my linkedin profile</a></li>
+            </p>
+        </div>
+        
+
+    </div>
+</body>
+
+</html>

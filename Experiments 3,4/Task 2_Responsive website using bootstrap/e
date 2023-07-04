@@ -1,0 +1,10 @@
+border: 2px solid black;
+            border-radius: 13px solid rgb(158, 4, 30);
+            background-image:url("sareephoto2.jpeg");
+            background-size: 100px;
+            background-repeat: no-repeat;
+            background-color: bisque;
+            color: white;
+            height: 500px;
+            width: 33%;
+            background-position: center;
